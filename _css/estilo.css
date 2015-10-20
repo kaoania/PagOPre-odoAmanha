@@ -1,0 +1,56 @@
+  @charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script:400,700);
+@import url(https://fonts.googleapis.com/css?family=Acme);
+@import url(https://fonts.googleapis.com/css?family=Lobster+Two:700);
+  body {
+    background-color: #69D2E7;
+  }
+
+  h1#titulo{
+    font-family: 'Oleo Script', cursive;
+  }
+  h2#titulo{
+  font-family: 'Lobster Two', cursive;
+  }
+  p#paragrafo{
+    font-family: 'Acme', sans-serif;
+  }
+  h1{
+    color: purple;
+  }
+  h2{
+    color: blue;
+  }
+  p {
+    text-align: justify;
+    text-align: center;
+    text-indent: 90px;
+    color: rgba(84,80,154,0.7);
+  }
+  div#interface{
+    width: 800px;
+    background-color: #D1F2A5;
+    margin: -23px auto 0px auto;
+    padding: 20px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6 );
+}
+
+  p:hover {
+    color: red;
+  }
+
+
+figure.foto-descricao img{
+  width: 600px;
+  opacity: 0.8;
+ }
+
+figure.foto-descricao:hover img{
+  opacity: 1;
+}
+div#elenco{
+  color: rgba(84,80,154,0.7);
+}
+li:hover{
+  color: red;
+}
